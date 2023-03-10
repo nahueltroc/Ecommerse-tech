@@ -1,0 +1,25 @@
+.cart{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: end;
+    margin-right: 80px;
+    font-size: 20px;
+ 
+ }
+
+ .cart sup {
+    position: absolute;
+    top: -4px;
+    width: 15px;
+    height: 15px;
+    right: -15px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }

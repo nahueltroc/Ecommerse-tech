@@ -1,0 +1,15 @@
+#navbarNav{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand{
+    color: brown;
+}
+
+.nav-item{
+    display: flex;
+    margin-right: 150px;
+}

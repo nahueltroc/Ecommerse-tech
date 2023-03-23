@@ -21,7 +21,7 @@ function NavBar() {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div ClassName="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page">
@@ -30,7 +30,7 @@ function NavBar() {
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Pcs
+                Celulares
               </a>
             </li>
             <li class="nav-item">

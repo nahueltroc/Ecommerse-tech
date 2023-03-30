@@ -1,0 +1,74 @@
+[
+    {
+       "id":1,
+       "nombre":"iPhone 12 pro",
+       "descripcion":"iPhone 12 Pro 512 GB - Grafito (Graphite)",
+       "imagen":"https://www.macstation.com.ar/img/productos/2594-1.jpg",
+       "precio":"2200.00",
+       "stock":"10",
+       "categoria":"celulares"
+    },
+    {
+       "id":2,
+       "nombre":"Samsung Galaxy A13 ",
+       "descripcion":"Samsung Galaxy A13 128gb",
+       "imagen":"https://images.samsung.com/is/image/samsung/p6pim/ar/sm-a135mzkkaro/gallery/ar-galaxy-a13-sm-a135-sm-a135mzkkaro-532207027?$1300_1038_PNG$",
+       "precio":"1200",
+       "stock":"10",
+       "categoria":"celulares"
+    },
+    {
+       "id":3,
+       "nombre":"Motorola moto E20",
+       "descripcion":"Pantalla 6.5 Memoria Interna 32GB",
+       "imagen":"https://armoto.vtexassets.com/arquivos/ids/164122-1200-auto?v=638144875947700000&width=1200&height=auto&aspect=true",
+       "precio":"500",
+       "stock":"10",
+       "categoria":"celulares"
+    },
+    {
+       "id":4,
+       "nombre":"Moto XT220 ",
+       "descripcion":"Moto XT220 Auriculares Bluetooth",
+       "imagen":"https://www.liontech-gaming.com/wp-content/uploads/2023/01/1-2-500x500.jpg",
+       "precio":"300",
+       "stock":"10",
+       "categoria":"perifericos"
+    },
+    {
+       "id":5,
+       "nombre":"Mouse Basilisk V3",
+       "descripcion":"Mouse Basilisk V3 Pro Wireless Black Razer",
+       "imagen":"https://http2.mlstatic.com/D_NQ_NP_2X_801057-MLA51800872355_102022-F.webp",
+       "precio":"400",
+       "stock":"10",
+       "categoria":"perifericos"
+    },
+    {
+       "id":6,
+       "nombre":"Teclado Gamer Mecanico",
+       "descripcion":"Teclado Gamer Mecanico Gadnic ZT800 RGB TKL Switch Outemu Blue",
+       "imagen":"https://http2.mlstatic.com/D_NQ_NP_2X_653212-MLA48644116654_122021-F.webp",
+       "precio":"600",
+       "stock":"10",
+       "categoria":"perifericos"
+    },
+    {
+       "id":7,
+       "nombre":"NOTEBOOK ASUS",
+       "descripcion":"NOTEBOOK ASUS 15.6 I5-1135G7 8GB 256GB PCIE W11",
+       "imagen":"https://http2.mlstatic.com/D_NQ_NP_2X_975740-MLA53527083898_012023-F.webp",
+       "precio":"4000",
+       "stock":"10",
+       "categoria":"notebooks"
+    },
+    {
+       "id":8,
+       "nombre":"Notebook Lenovo ",
+       "descripcion":"Notebook Lenovo V15 Gen 2 I5 1135g4 Fhd 8gb 256 Nvme Rj45",
+       "imagen":"https://http2.mlstatic.com/D_NQ_NP_2X_677172-MLA48635279078_122021-F.webp",
+       "precio":"3200",
+       "stock":"10",
+       "categoria":"notebooks"
+    }
+ ]

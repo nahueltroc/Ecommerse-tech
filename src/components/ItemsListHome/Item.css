@@ -1,0 +1,31 @@
+
+.containerere{
+    border: 1px solid #000000;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+.card-nombre {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .card-description {
+    color: #3d3939;
+    font-family: sans-serif;
+  }
+  
+  .card-precio {
+    font-weight: bold;
+    color: blue;
+  }
+
+  .homeimagen{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+  }
+  

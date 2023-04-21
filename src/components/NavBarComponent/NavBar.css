@@ -1,12 +1,15 @@
-#navbarNav{
+.navbar-nav{
     color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
+}
+.navbar-1{
+    display: flex;
+   justify-content: space-around;
+   align-items: baseline;
+}
 .navbar-brand{
     color: brown;
+
 }
 
 .nav-item{

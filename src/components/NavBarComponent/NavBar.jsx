@@ -7,15 +7,17 @@ import { Link, NavLink } from "react-router-dom";
 function NavBar() {
   return (
     <Link className="navbar-brand" to={"/"}>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar-1 navbar-expand-lg bg-body-tertiary">
+        <div>
         <img src="/logo192.png" alt="tecno" width={100} />
-
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+        <a className="navbar-brand" href="#">
             Tech Store
           </a>
+         </div>
+        <div className="container-fluid-op">
+        
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -23,12 +25,12 @@ function NavBar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div ClassName="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+        
                   <NavLink
                     className="nav-link"
                     aria-current="page"
@@ -36,10 +38,10 @@ function NavBar() {
                   >
                     Celulares{" "}
                   </NavLink>
-                </a>
+            
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   <NavLink
                     className="nav-link"
                     aria-current="page"
@@ -49,8 +51,8 @@ function NavBar() {
                   </NavLink>
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link ">
+              <li className="nav-item">
+                <a className="nav-link">
                   <NavLink
                     className="nav-link"
                     aria-current="page"
@@ -60,9 +62,11 @@ function NavBar() {
                   </NavLink>
                 </a>
               </li>
+              <li>
+              <CartWidget />
+              </li>
             </ul>
-          </div>
-          <CartWidget />
+          </div >
         </div>
       </nav>
     </Link>
